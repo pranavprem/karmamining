@@ -2,8 +2,6 @@
 
 # Karma Mining
 
-# Pranav Prem
-
 ## Section 1 Introduction
 Reddit it a social media platform that is famously branded as the “Front page of the internet” for being a one stop shop for real time information sharing.
 Reddit itself is divided into subreddits which focus on a specific topic (e.g. world news, Pokémon, data mining) and each subreddit will have multiple posts relevant to the subreddit. Each post further has several comments with upvotes and downvotes for each comment.
