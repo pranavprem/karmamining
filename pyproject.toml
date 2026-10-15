@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+extend-exclude = [".venv", "frontend", "docs"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
