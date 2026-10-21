@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  color: #222;
+  background: #f7f7f5;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.page-header,
+footer,
+.controls,
+h2,
+.status {
+  text-align: center;
+}
+
+.page-header {
+  padding: 2rem 1rem 0.5rem;
+}
+
+.page-header h1 {
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #666;
+}
+
+.controls {
+  margin: 1.5rem auto;
+  max-width: 40rem;
+}
+
+.controls label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.controls input {
+  margin: 0 auto 0.9rem;
+  max-width: 28rem;
+}
+
+.controls button {
+  margin: 0.25rem;
+}
+
+.status {
+  min-height: 1.5rem;
+}
+
+table.results {
+  width: 100%;
+  margin: 0 auto 2rem;
+  background: #fff;
+  border-collapse: collapse;
+}
+
+table.results th,
+table.results td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: top;
+}
+
+table.results th.score,
+table.results td.score {
+  width: 8rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+footer {
+  padding: 2rem 1rem 3rem;
+  color: #555;
+}
